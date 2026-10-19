@@ -5,9 +5,37 @@ just a little game that I want to attempt to make just for a learning experience
 # Table Of Contents
 
 - [cli aim trainer](#cli-aim-trainer)
-
+- [Installation](#installation)
 - [Why?](#why)
 - [Preview](#preview)
+
+# Installation
+
+### Option 1 — Go install (easiest)
+
+make sure you have Go installed, then run:
+
+```bash
+go install github.com/KigoryGH/cli-aim-trainer@latest
+```
+
+this will download and build the binary automatically and place it in your `$GOPATH/bin`. make sure that's in your `$PATH`.
+
+### Option 2 — Build from source
+
+```bash
+git clone https://github.com/KigoryGH/cli-aim-trainer.git
+cd cli-aim-trainer
+go build -o aim-trainer .
+```
+
+then move the binary somewhere in your `$PATH`:
+
+```bash
+sudo mv aim-trainer /usr/local/bin/
+```
+
+now you can run it from anywhere with just `aim-trainer`.
 
 # Why?
 
