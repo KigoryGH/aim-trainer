@@ -16,10 +16,8 @@ just a little game that I want to attempt to make just for a learning experience
 make sure you have Go installed, then run:
 
 ```bash
-go install github.com/KigoryGH/cli-aim-trainer@latest
+go install github.com/KigoryGH/aim-trainer@latest
 ```
-
-this will download and build the binary automatically and place it in your `$GOPATH/bin`. make sure that's in your `$PATH`.
 
 ### Option 2 — Build from source
 
@@ -34,8 +32,6 @@ then move the binary somewhere in your `$PATH`:
 ```bash
 sudo mv aim-trainer /usr/local/bin/
 ```
-
-now you can run it from anywhere with just `aim-trainer`.
 
 # Why?
 
