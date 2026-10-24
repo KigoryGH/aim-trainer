@@ -54,7 +54,7 @@ func drawTarget(screen tcell.Screen, x, y int, target []string) {
 }
 
 var rootCmd = &cobra.Command{
-	Use:   "cli-aim-trainer",
+	Use:   "aim-trainer",
 	Short: "A CLI aim trainer game",
 	Run: func(cmd *cobra.Command, args []string) {
 		timeLeft = duration
